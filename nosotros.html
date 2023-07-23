@@ -5,60 +5,134 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Club de Marlen</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7d8317f0c0.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <!-- encabezado logo -->
-    <div class="container" id="logo">
+    <div class="" id="logo">
         <img src="./img/logo_club.png" alt="Logo" height="80px" width="me-auto">
     </div>
 
-    <!-- navegador -->
-    <nav
-        class="navbar navbar-expand-lg bg-body-tertiary navbar-expand-md navbar-expand-sm navbar-expand-xs navbar-expand-xxs">
-        <div class="container-fluid">
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="nosotros.html">Nosotros</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="articulos.html">Artículos</a>
-                    </li>
-                </ul>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="¿Qué buscas?" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Ir</button>
-                </form>
-            </div>
-        </div>
+    <!-- fin encabezado logo -->
 
+    <!-- navegador -->
+    <nav class="navbar navbar-expand-lg background-azul">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" href="./index.html">Inicio</a>
+                    <a class="nav-link active" aria-current="page" href="/nosotros.html">Nosotros</a>
+                    <a class="nav-link" href="/articulos.html">Artículos</a>
+                </div>
+            </div>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="¿Qué buscas?" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Ir</button>
+            </form>
+        </div>
     </nav>
 
     <!-- Fin navegador -->
 
+
     <!-- Sección nosotros -->
 
-
-    <div class="container" id="header">
+    <div class="" id="header">
         <strong>
-            <header>Nosotros</header>
+            <h1>Nosotros</h1>
         </strong>
     </div>
 
-    <div class="container">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad dolorem eveniet placeat. Autem obcaecati, illum
-            ipsa molestiae eaque sint vero adipisci unde repudiandae dicta sapiente quidem nesciunt animi libero nihil!
-        </p>
+    <div class="container" id="nosotros">
+        <div class="row align-items-center">
+            <!-- <div class="col-sm"> -->
+            <!-- <div class="col-sm"> -->
+            <div class="col-sm">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad dolorem eveniet placeat. Autem obcaecati,
+                    illum ipsa molestiae eaque sint vero adipisci unde repudiandae dicta sapiente quidem nesciunt animi libero
+                    nihil!
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa voluptate accusantium pariatur
+                    incidunt, vero molestiae autem explicabo consequuntur soluta, accusamus quidem quos eligendi aliquid
+                    neque cum vitae, quis nobis aliquam</p>
+                <br>
+                <p> Love, The Club </p>
+            </div>
 
+            <div class="col-sm">
+                <img src="./img/PaloAlto.jpg" alt="Bosque de Palo Alto">
+            </div>
+
+        </div>
+    </div>
     </div>
 
+    <!-- Fin sección nosotros -->
+
+    <!-- Redes sociales -->
+    <div class="row text-center" id="social-media">
+        <div class="row justify-content-md-center ">
+            <div class="col col-md-3">
+                <div class="">
+                    <i class="fa-brands fa-earlybirds fa-xl"></i>
+                    <div class="card-body">
+                        <h6 class="card-title">Twitter</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="">
+                    <i class="fa-brands fa-tiktok iconP fa-xl"></i>
+                    <div class="card-body">
+                        <h6 class="card-title">TikTok</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-md-3">
+                <div class="">
+                    <i class="fa-brands fa-instagram fa-xl"></i>
+                    <div class="card-body">
+                        <h6 class="card-title">Instagram</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="row" id="footer">
+        <div class="row justify-content-md-center">
+            <div class="col col-lg-2 col-md-3 col-sm-6 col-xs-6 foot">
+                <ul>
+                    <h5>Escríbenos</h5>
+                    <li>ejemplo@hotmail.com</li>
+                </ul>
+            </div>
+            <div class="col col-lg-2 col-md-3 col-sm-6 col-xs-6 foot">
+                <ul>
+                    <h5>Páginas interesantes</h5>
+                    <a href="">
+                        <li>blabla.com</li>
+                    </a>
+                    <a href="">
+                        <li>interesante.com</li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+        <div class="row" id="Copyright">
+            <p>Copyright</p>
+        </div>
+    </div>
+
+    <!-- Fin footer -->
 
 
 

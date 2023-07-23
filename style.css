@@ -1,34 +1,36 @@
 #logo {
     background-color: white;
     text-align: center;
+    margin-bottom: 5px;
 }
 
 #navegador{
     background-color: #A5D5E0;
     width: auto;
     height: 100px;
+    color: #087189;
 
 }
 
-.container-fluid{
-    background-color: #A5D5E0;
-
+.background-azul{
+    background-color: #A5D5E0
 }
 
 
 #header {
     margin: 50px 0 50px 0;
     text-align: center;
-    color: black;
+    color: orange;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: oblique;
     font-weight: bolder;
+    
 }
 
 #recientes{
     display: flex;
     justify-content: space-between;
-    margin: 50px 50px 50px 50px;
+    margin: 50px 0px 50px 0px;
 }
 
 .card{
@@ -36,31 +38,74 @@
     margin: auto;
 }
 
-a {
+.card a {
     text-decoration: none;
     color:black;
 }
 
+#carrusel img{
+    height: 500px;
+}
+
+#nosotros{
+    text-align: justify;
+    margin-bottom:20px;
+}
+
+
+#nosotros img{
+    text-align: center;
+    height: 400px;
+    width: 600px;
+
+}
+
+.indice {
+    background-color: #087189 ;
+    color: white;
+    /* margin: 0 15px 0 15px; */
+    
+}
+
+.indice ul li{
+    list-style: none;
+    font-style: oblique;
+}
+
+.indice a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+#articulos-recientes .card{
+    margin: 10px 0 10px 0;
+}
+
 #social-media {
     background-color: antiquewhite;
-
-    padding: 100px 0 100px 0;
-    color: white;
+    padding: 10px 0 5px 0;
+    color: #087189 ;
+    margin-top: 50px;
 }
 
 #footer {
-    padding: 50PX 0 50px 0;
+    padding: 30px 0 20px 0;
     background-color: #A5D5E0;
     color: white;
+    text-align: center;
+    font-style: oblique;
 }
 
 #footer ul li {
+    
     list-style: none;
     padding-left: 0;
 }
 
 #Copyright {
-    padding: 20px 0 5px 0;
+    padding: 20px 0 0px 0;
+    margin-bottom: -25px;
     font-style: oblique;
+    text-align: center;
 
 }

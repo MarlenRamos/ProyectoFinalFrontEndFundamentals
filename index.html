@@ -7,67 +7,88 @@
     <title>Club de Marlen</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/7d8317f0c0.js" crossorigin="anonymous"></script>
-        
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <!-- encabezado logo -->
-    <div class="container" id="logo" >
+    <div class="" id="logo" >
         <img src="./img/logo_club.png" alt="Logo" height="80px" width="me-auto">
     </div>
 
+    <!-- fin encabezado logo -->
+
     <!-- navegador -->
-    <!-- <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="nosotros.html">Nosotros</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="articulos.html">Artículos</a>
-                    </li>
-                </ul>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="¿Qué buscas?" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Ir</button>
-                </form>
-            </div>
-        </div>
-
-    </nav> -->
-
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg background-azul">
         <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
               <a class="nav-link active" aria-current="page" href="#">Inicio</a>
               <a class="nav-link" href="/nosotros.html">Nosotros</a>
               <a class="nav-link" href="/articulos.html">Artículos</a>
             </div>
-          </div>
         </div>
-      </nav>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="¿Qué buscas?" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Ir</button>
+            </form>
+        </div>
+    </nav>
     
     <!-- Fin navegador -->
 
-    <!-- Sección artículos -->
-
-
-    <div class="container" id="header">
-        <strong><header>Artículos recientes</header></strong>
+    <!-- Carrusel -->
+    <div class="" id="carrusel">
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./img/baja.jpg" class="d-block w-100" alt="Playa Baja California">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Conectando con la naturaleza</h5>
+                  <p>Siendo uno con el paisaje</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./img/colima.jpg" class="d-block w-100" alt="Nevado de Colima">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Aires de montaña</h5>
+                  <p>Cómo desconectarse del asfalto</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./img/corteza.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Admirando la simpleza</h5>
+                  <p>La belleza de los mínimos detalles</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
     </div>
+  
+    <!-- Fin de Carrusel -->
 
-    <!-- <div class="container" >
-        <h5>Artículos recientes</h5>
-    </div> -->
+    <!-- Sección artículos recientes -->
+
+    <div class="" id="header">
+        <strong><h4>Artículos recientes</h4></strong>
+    </div>
 
     <div class="row" id="recientes">
         <div class= "col col-lg-3 col-md-3 col-sm-6 col-xs-6" >
@@ -116,59 +137,63 @@
             </div>
         </div>
     </div>
+    <!-- Fin Sección artículos recientes -->
 
     <!-- Redes sociales -->
     <div class="row text-center" id="social-media">
         <div class="row justify-content-md-center ">
             <div class="col col-md-3">
                 <div class="">
-                    <i class="fa-regular fa-facebook iconP"></i>
+                    <i class="fa-brands fa-earlybirds fa-xl"></i>
                     <div class="card-body">
-                        <h5 class="card-title">Clock</h5>
+                        <h6 class="card-title">Twitter</h6>
                     </div>
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="">
-                    <i class="fa-brands fa-tiktok iconP"></i>
+                    <i class="fa-brands fa-tiktok iconP fa-xl"></i>
                     <div class="card-body">
-                        <h5 class="card-title">TikTok</h5>
+                        <h6 class="card-title">TikTok</h6>
                     </div>
                 </div>
             </div>
             <div class="col col-md-3">
                 <div class="">
-                    <i class="fa-regular fa-instagram iconP"></i> <i class="fa-regular fa-"></i>
+                    <i class="fa-brands fa-instagram fa-xl"></i>
                     <div class="card-body">
-                        <h5 class="card-title">Clock</h5>
+                        <h6 class="card-title">Instagram</h6>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <!-- Fin de redes sociales -->
 
     <!-- Footer -->
     <div class="row" id="footer">
         <div class="row justify-content-md-center">
             <div class="col col-lg-2 col-md-3 col-sm-6 col-xs-6 foot">
-                <h5>Escríbenos</h5>
                 <ul>
+                    <h5>Escríbenos</h5>
                     <li>ejemplo@hotmail.com</li>
                 </ul>
             </div>
             <div class="col col-lg-2 col-md-3 col-sm-6 col-xs-6 foot">
-                <h5>Páginas interesantes</h5>
                 <ul>
+                    <h5>Páginas interesantes</h5>
                     <a href=""><li>blabla.com</li></a>
                     <a href=""><li>interesante.com</li></a>
                 </ul>
             </div>
     </div>
         <div class="row" id="Copyright">
-            <div class="row"></div>
-            <div class="row justify-content-md-center">Copyright 2023</div>
+                <!-- <div class="row justify-content-md-center">Copyright 2023</div> -->
+                <p>Copyright</p>
         </div>
     </div>
+
+    <!-- Fin footer -->
       
     <!-- Scripts bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
